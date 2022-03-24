@@ -52,7 +52,7 @@ sudo nano /etc/telegraf/telegraf.conf
 ```
 ![image](https://user-images.githubusercontent.com/67442103/159906636-3650f5af-47dd-49cf-a442-e26db9434e84.png)
 
-6. **And don`t forgot restert Influx, Telegraf services**
+6. **And don`t forgot restart Influx, Telegraf services**
 ```console
 sudo systemctl restart telegraf influxdb
 ```
